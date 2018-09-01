@@ -48,6 +48,14 @@ public static void main(String[] args) {
 	myLinkedList.addFirst("bitchin");
 	
 	myLinkedList.forEach(System.out::println);
-	 
+	System.out.println("*********************");
+	myLinkedList.pollFirst();
+	
+	myLinkedList.forEach(System.out::println);
+	System.out.println("*********************");
+	myLinkedList.pollLast();
+	
+	myLinkedList.forEach(System.out::println);
+	System.out.println("*********************");
 }
 }
