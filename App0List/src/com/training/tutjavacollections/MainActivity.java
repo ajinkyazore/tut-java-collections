@@ -39,6 +39,15 @@ public static void main(String[] args) {
 	
 	//predict the output here -> you will realize you're f**ked
 	integerList.forEach(System.out::println);
+	
+	
+	LinkedList<String> myLinkedList = new LinkedList();
+	myLinkedList.addFirst("This");
+	myLinkedList.addFirst("house");
+	myLinkedList.addFirst("is");
+	myLinkedList.addFirst("bitchin");
+	
+	myLinkedList.forEach(System.out::println);
 	 
 }
 }
